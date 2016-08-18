@@ -12,7 +12,7 @@ using Nevoweb.DNN.NBrightBuy.Components;
 
 namespace NBrightProject.DNN.NBrightStore
 {
-    public class DPSPaymentProviderPaymentProvider : Nevoweb.DNN.NBrightBuy.Components.Interfaces.PaymentsInterface
+    public class DPSPaymentProvider : Nevoweb.DNN.NBrightBuy.Components.Interfaces.PaymentsInterface
     {
         public override string Paymentskey { get; set; }
 
