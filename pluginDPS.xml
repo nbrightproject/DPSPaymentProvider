@@ -1,0 +1,53 @@
+﻿<genxml>
+  <files />
+  <hidden>
+    <index>99</index>
+  </hidden>
+  <textbox>
+    <ctrl>
+      <![CDATA[dpspaymentprovider]]>
+    </ctrl>
+    <name>
+      <![CDATA[DPS Payment]]>
+    </name>
+    <icon>
+      <![CDATA[]]>
+    </icon>
+    <group>
+      <![CDATA[Admin]]>
+    </group>
+    <path>
+      <![CDATA[/DesktopModules/NBright/DPSPaymentProvider/Payment.ascx]]>
+    </path>
+    <help>
+      <![CDATA[]]>
+    </help>
+    <roles>
+      <![CDATA[Administrators]]>
+    </roles>
+    <description>
+      <![CDATA[]]>
+    </description>
+    <assembly>
+      <![CDATA[NBS_DPSPaymentProvider]]>
+    </assembly>
+    <namespaceclass>
+      <![CDATA[NBrightProject.DNN.NBrightStore.DPSPaymentProvider]]>
+    </namespaceclass>
+  </textbox>
+  <checkbox>
+    <hidden>
+      <![CDATA[False]]>
+    </hidden>
+    <active>
+      <![CDATA[True]]>
+    </active>
+  </checkbox>
+  <dropdownlist>
+    <providertype selectedtext="Payments">
+      <![CDATA[07]]>
+    </providertype>
+  </dropdownlist>
+  <checkboxlist />
+  <radiobuttonlist />
+</genxml>

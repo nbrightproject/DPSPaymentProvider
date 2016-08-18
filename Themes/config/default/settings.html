@@ -1,0 +1,98 @@
+[<tag id="resourcepath" type="meta" value="/DesktopModules/NBright/DPSPaymentProvider/App_LocalResources/" />]
+
+<br/>
+
+<div id="pageactionssource"><!-- Page actions are moved into header bar - also exist at page bottom-->
+	<div class="col-xs-9 col-sm-9">
+		<a href="#" class="show-sidebar">
+		  <i class="fa fa-bars"></i>
+		</a>
+		<div class="actionbuttonwrapper">
+			[<tag id="cmdSave" type="linkbutton" cssclass="btn btn-primary" resourcekey="General.cmdSaveButton" commandname="save" />] 
+	    </div>
+	</div>
+	<div class="col-xs-3 col-sm-3 top-panel-right">
+		[<tag type="selectlocalebutton" size="32"/>]
+	</div>
+</div>
+
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="box">
+            <div class="box-header">
+                <div class="box-name">
+                    <i class="fa fa-search"></i><span>DPSPaymentProvider Payment</span>
+                </div>
+            </div>
+            <div class="box-content">
+                <div class="form-horizontal dnnForm">
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="Payment.checkouttemplate" />]</label>
+                        <div class="col-sm-2">
+                            [<tag id="checkouttemplate" cssclass="form-control" type="textbox" Text="methodselection.html" />]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="Payment.tpe" />]</label>
+                        <div class="col-sm-2">
+                            [<tag id="tpe" cssclass="form-control" type="textbox" Text="" />]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="Payment.codesociete" />]</label>
+                        <div class="col-sm-3">
+                            [<tag id="codesociete" cssclass="form-control" type="textbox" Text="" />]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="Payment.key" />]</label>
+                        <div class="col-sm-3">
+                            [<tag id="cle" cssclass="form-control" type="textbox" Text="" />]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="Payment.currencycode" />]</label>
+                        <div class="col-sm-3">
+                            [<tag id="currencycode" cssclass="form-control" type="textbox" Text="EUR" />]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="Payment.testmode" />]</label>
+                        <div class="col-sm-2">
+                            [<tag id="testmode" type="checkbox" />]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="Payment.returndomain" />]</label>
+                        <div class="col-sm-3">
+                            [<tag id="returndomain" cssclass="form-control" type="textbox" Text="" />]
+                            [<tag type="valueof" resourcekey="DPSPaymentProviderPayment.returndomainmsg"/>]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="Payment.debugmode" />]</label>
+                        <div class="col-sm-2">
+                            [<tag id="debugmode" type="checkbox" />]
+                        </div>
+                    </div>
+                    <div id="debugmsg">
+                        [<tag type="valueof" xpath="genxml/debugmsg"/>]
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
